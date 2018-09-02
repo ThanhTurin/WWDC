@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    let totalRows = collectionView.numberOfItems(inSection: 0)
+    let preloadIndexPadding = 5
+    if indexPath.row &gt;= totalRows - preloadIndexPadding {
+        if !isFetchingData &amp;&amp; hasMore {
+            fetchNextPage()
+        }
+    }
+  }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6FCC9DB5-DDDB-4C56-AFFF-DEE1C6F1303F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Logic code on DataSource to load next page when UICollectionView is scrolled near the end.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Load Next Page</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

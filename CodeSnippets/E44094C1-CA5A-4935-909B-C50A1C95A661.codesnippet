@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>def install_shared_pod
+  pod 'Alamofire', '~&gt; 4.7'
+  pod 'AlamofireImage', '~&gt; 3.3'
+  pod 'SwiftyJSON', '~&gt; 4.1'
+end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E44094C1-CA5A-4935-909B-C50A1C95A661</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Define shared pod between iOS and tvOS</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Shared Pod</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
