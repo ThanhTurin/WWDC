@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>default_platform(:ios)
+
+SCHEMES = { ios: 'WWDC', tvos: 'WWDC_tvOS' }.freeze
+
+default_platform(:ios)
+
+[:ios, :tvos].each do |current_platform|
+    # Define all lanes we wanna run here
+    platform current_platform do
+        # Get dependencies
+        scheme = SCHEMES[current_platform]
+        
+        desc "Run unit tests"
+        lane :test do
+            scan(scheme: scheme)
+            clean_build_artifacts
+        end
+        
+    end
+end
+
+# Global lanes to run on all platforms
+desc "Runs unit tests on both iOS and tvOS"
+lane :test_all do
+    ['ios', 'tvos'].each do |platform|
+        Fastlane::LaneManager.cruise_lane(platform, 'test')
+    end
+end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>93EF2277-3FA3-402F-9CF9-812EEC7E9541</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Define fastlane supports for both iOS and tvOS</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Fastlane</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

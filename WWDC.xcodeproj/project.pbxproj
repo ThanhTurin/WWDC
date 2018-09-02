@@ -20,8 +20,23 @@
 		07821E18213BACBF00080F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E16213BACBE00080F73 /* ViewController.swift */; };
 		07821E19213BACBF00080F73 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E17213BACBE00080F73 /* VideoCollectionViewCell.swift */; };
 		07821E1F213BF1F700080F73 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E1E213BF1F700080F73 /* Utility.swift */; };
+		07FD593B213C4EB40019B1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD593A213C4EB40019B1C2 /* AppDelegate.swift */; };
+		07FD593D213C4EB40019B1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD593C213C4EB40019B1C2 /* ViewController.swift */; };
+		07FD5940213C4EB40019B1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FD593E213C4EB40019B1C2 /* Main.storyboard */; };
+		07FD5942213C4EB60019B1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FD5941213C4EB60019B1C2 /* Assets.xcassets */; };
+		07FD594D213C4EB70019B1C2 /* WWDC_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD594C213C4EB70019B1C2 /* WWDC_tvOSTests.swift */; };
+		07FD5959213C50170019B1C2 /* VideoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E09213BABE700080F73 /* VideoAPI.swift */; };
+		07FD595A213C50170019B1C2 /* VideoCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E0B213BABE700080F73 /* VideoCollectionViewModel.swift */; };
+		07FD595B213C50170019B1C2 /* VideoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E0A213BABE700080F73 /* VideoDataSource.swift */; };
+		07FD595C213C50170019B1C2 /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E0D213BABE700080F73 /* UIImageView+URL.swift */; };
+		07FD595D213C50170019B1C2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E1E213BF1F700080F73 /* Utility.swift */; };
+		07FD595E213C50170019B1C2 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E0C213BABE700080F73 /* Video.swift */; };
+		07FD5960213C50D70019B1C2 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD595F213C50D70019B1C2 /* VideoCollectionViewCell.swift */; };
+		07FD5961213C516D0019B1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07821DEC213BA89E00080F73 /* Assets.xcassets */; };
 		8BF0E202652F646243281C37 /* Pods_WWDC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7449071968DF4F8917C4C92D /* Pods_WWDC.framework */; };
+		ADF60F340734D41DA836BE3E /* Pods_WWDC_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2197040C6E9A6641225C8A5F /* Pods_WWDC_tvOS.framework */; };
 		DEC5F8847B0673CC119DFF9B /* Pods_WWDCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D5015C6331BFC64622DA6 /* Pods_WWDCTests.framework */; };
+		E3F4A4D2FD608E71EA05AACD /* Pods_WWDC_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B2E733FE888A54037A44B4 /* Pods_WWDC_tvOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +46,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 07821DE1213BA89D00080F73;
 			remoteInfo = WWDC;
+		};
+		07FD5949213C4EB70019B1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07821DDA213BA89D00080F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FD5937213C4EB40019B1C2;
+			remoteInfo = WWDC_tvOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,11 +77,27 @@
 		07821E16213BACBE00080F73 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07821E17213BACBE00080F73 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 		07821E1E213BF1F700080F73 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		07FD5938213C4EB40019B1C2 /* WWDC_tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC_tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FD593A213C4EB40019B1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FD593C213C4EB40019B1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07FD593F213C4EB40019B1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FD5941213C4EB60019B1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FD5943213C4EB60019B1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FD5948213C4EB70019B1C2 /* WWDC_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FD594C213C4EB70019B1C2 /* WWDC_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC_tvOSTests.swift; sourceTree = "<group>"; };
+		07FD594E213C4EB70019B1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FD595F213C50D70019B1C2 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2197040C6E9A6641225C8A5F /* Pods_WWDC_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWDC_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FAA7D95EC5482D60108D84E /* Pods-WWDC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.release.xcconfig"; sourceTree = "<group>"; };
 		326DD5617C92615F762105E4 /* Pods-WWDC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.debug.xcconfig"; sourceTree = "<group>"; };
 		45414FE8CFDCE7637548364F /* Pods-WWDCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCTests/Pods-WWDCTests.release.xcconfig"; sourceTree = "<group>"; };
+		4ABAF2E3FC7F4ED0630DF7AF /* Pods-WWDC_tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC_tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC_tvOSTests/Pods-WWDC_tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4ADEE6B383041F32E932C14C /* Pods-WWDCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCTests/Pods-WWDCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51B2E733FE888A54037A44B4 /* Pods_WWDC_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWDC_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BF7748467475EE0C48AA8B /* Pods-WWDC_tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC_tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC_tvOSTests/Pods-WWDC_tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A7B731471C3A24C55D43E82 /* Pods-WWDC_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC_tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC_tvOS/Pods-WWDC_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		703D5015C6331BFC64622DA6 /* Pods_WWDCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWDCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7262DA3B97EFA7AC2207D4A4 /* Pods-WWDC_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC_tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC_tvOS/Pods-WWDC_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		7449071968DF4F8917C4C92D /* Pods_WWDC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWDC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +118,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07FD5935213C4EB40019B1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF60F340734D41DA836BE3E /* Pods_WWDC_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD5945213C4EB70019B1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F4A4D2FD608E71EA05AACD /* Pods_WWDC_tvOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,8 +150,11 @@
 		07821DD9213BA89D00080F73 = {
 			isa = PBXGroup;
 			children = (
+				07FD5955213C4ED00019B1C2 /* Shared */,
 				07821DE4213BA89D00080F73 /* WWDC */,
+				07FD5939213C4EB40019B1C2 /* WWDC_tvOS */,
 				07821DF9213BA89E00080F73 /* WWDCTests */,
+				07FD594B213C4EB70019B1C2 /* WWDC_tvOSTests */,
 				07821DE3213BA89D00080F73 /* Products */,
 				DF4A2CDF8964D9D1612F01C1 /* Pods */,
 				CC88290C2510DA5E1E67B4C8 /* Frameworks */,
@@ -110,6 +167,8 @@
 			children = (
 				07821DE2213BA89D00080F73 /* WWDC.app */,
 				07821DF6213BA89E00080F73 /* WWDCTests.xctest */,
+				07FD5938213C4EB40019B1C2 /* WWDC_tvOS.app */,
+				07FD5948213C4EB70019B1C2 /* WWDC_tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,8 +178,6 @@
 			children = (
 				07821E07213BABA400080F73 /* App */,
 				07821E05213BAB8000080F73 /* Configurations */,
-				07821E15213BAC3800080F73 /* Logics */,
-				07821E14213BAC1400080F73 /* Models */,
 				07821E06213BAB8F00080F73 /* Resources */,
 			);
 			path = WWDC;
@@ -183,11 +240,68 @@
 			path = Logics;
 			sourceTree = "<group>";
 		};
+		07FD5939213C4EB40019B1C2 /* WWDC_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				07FD5956213C4EE80019B1C2 /* App */,
+				07FD5957213C4EF30019B1C2 /* Configurations */,
+				07FD5958213C4EFD0019B1C2 /* Resources */,
+			);
+			path = WWDC_tvOS;
+			sourceTree = "<group>";
+		};
+		07FD594B213C4EB70019B1C2 /* WWDC_tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FD594C213C4EB70019B1C2 /* WWDC_tvOSTests.swift */,
+				07FD594E213C4EB70019B1C2 /* Info.plist */,
+			);
+			path = WWDC_tvOSTests;
+			sourceTree = "<group>";
+		};
+		07FD5955213C4ED00019B1C2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				07821E15213BAC3800080F73 /* Logics */,
+				07821E14213BAC1400080F73 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		07FD5956213C4EE80019B1C2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07FD593A213C4EB40019B1C2 /* AppDelegate.swift */,
+				07FD593C213C4EB40019B1C2 /* ViewController.swift */,
+				07FD595F213C50D70019B1C2 /* VideoCollectionViewCell.swift */,
+				07FD593E213C4EB40019B1C2 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		07FD5957213C4EF30019B1C2 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				07FD5943213C4EB60019B1C2 /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		07FD5958213C4EFD0019B1C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07FD5941213C4EB60019B1C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CC88290C2510DA5E1E67B4C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7449071968DF4F8917C4C92D /* Pods_WWDC.framework */,
 				703D5015C6331BFC64622DA6 /* Pods_WWDCTests.framework */,
+				2197040C6E9A6641225C8A5F /* Pods_WWDC_tvOS.framework */,
+				51B2E733FE888A54037A44B4 /* Pods_WWDC_tvOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,6 +313,10 @@
 				2FAA7D95EC5482D60108D84E /* Pods-WWDC.release.xcconfig */,
 				4ADEE6B383041F32E932C14C /* Pods-WWDCTests.debug.xcconfig */,
 				45414FE8CFDCE7637548364F /* Pods-WWDCTests.release.xcconfig */,
+				6A7B731471C3A24C55D43E82 /* Pods-WWDC_tvOS.debug.xcconfig */,
+				7262DA3B97EFA7AC2207D4A4 /* Pods-WWDC_tvOS.release.xcconfig */,
+				4ABAF2E3FC7F4ED0630DF7AF /* Pods-WWDC_tvOSTests.debug.xcconfig */,
+				53BF7748467475EE0C48AA8B /* Pods-WWDC_tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -244,6 +362,44 @@
 			productReference = 07821DF6213BA89E00080F73 /* WWDCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		07FD5937213C4EB40019B1C2 /* WWDC_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FD5953213C4EB70019B1C2 /* Build configuration list for PBXNativeTarget "WWDC_tvOS" */;
+			buildPhases = (
+				6FAE4F960FC4A2DD369EC38C /* [CP] Check Pods Manifest.lock */,
+				07FD5934213C4EB40019B1C2 /* Sources */,
+				07FD5935213C4EB40019B1C2 /* Frameworks */,
+				07FD5936213C4EB40019B1C2 /* Resources */,
+				901CBB745E1EF416310650DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDC_tvOS;
+			productName = WWDC_tvOS;
+			productReference = 07FD5938213C4EB40019B1C2 /* WWDC_tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FD5947213C4EB70019B1C2 /* WWDC_tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FD5954213C4EB70019B1C2 /* Build configuration list for PBXNativeTarget "WWDC_tvOSTests" */;
+			buildPhases = (
+				7ECC7112617AC87BE4BE9767 /* [CP] Check Pods Manifest.lock */,
+				07FD5944213C4EB70019B1C2 /* Sources */,
+				07FD5945213C4EB70019B1C2 /* Frameworks */,
+				07FD5946213C4EB70019B1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FD594A213C4EB70019B1C2 /* PBXTargetDependency */,
+			);
+			name = WWDC_tvOSTests;
+			productName = WWDC_tvOSTests;
+			productReference = 07FD5948213C4EB70019B1C2 /* WWDC_tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,6 +416,13 @@
 					07821DF5213BA89E00080F73 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 07821DE1213BA89D00080F73;
+					};
+					07FD5937213C4EB40019B1C2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					07FD5947213C4EB70019B1C2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07FD5937213C4EB40019B1C2;
 					};
 				};
 			};
@@ -278,6 +441,8 @@
 			targets = (
 				07821DE1213BA89D00080F73 /* WWDC */,
 				07821DF5213BA89E00080F73 /* WWDCTests */,
+				07FD5937213C4EB40019B1C2 /* WWDC_tvOS */,
+				07FD5947213C4EB70019B1C2 /* WWDC_tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +459,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		07821DF4213BA89E00080F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD5936213C4EB40019B1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD5942213C4EB60019B1C2 /* Assets.xcassets in Resources */,
+				07FD5961213C516D0019B1C2 /* Assets.xcassets in Resources */,
+				07FD5940213C4EB40019B1C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD5946213C4EB70019B1C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,6 +503,64 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6FAE4F960FC4A2DD369EC38C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WWDC_tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ECC7112617AC87BE4BE9767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WWDC_tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901CBB745E1EF416310650DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WWDC_tvOS/Pods-WWDC_tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage-tvOS/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-tvOS/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDC_tvOS/Pods-WWDC_tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B333E84134F51B30B78E3EAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,9 +586,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WWDC/Pods-WWDC-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage-iOS/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -388,6 +628,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07FD5934213C4EB40019B1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD5960213C50D70019B1C2 /* VideoCollectionViewCell.swift in Sources */,
+				07FD595D213C50170019B1C2 /* Utility.swift in Sources */,
+				07FD595A213C50170019B1C2 /* VideoCollectionViewModel.swift in Sources */,
+				07FD5959213C50170019B1C2 /* VideoAPI.swift in Sources */,
+				07FD595C213C50170019B1C2 /* UIImageView+URL.swift in Sources */,
+				07FD593D213C4EB40019B1C2 /* ViewController.swift in Sources */,
+				07FD595E213C50170019B1C2 /* Video.swift in Sources */,
+				07FD593B213C4EB40019B1C2 /* AppDelegate.swift in Sources */,
+				07FD595B213C50170019B1C2 /* VideoDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD5944213C4EB70019B1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD594D213C4EB70019B1C2 /* WWDC_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -395,6 +659,11 @@
 			isa = PBXTargetDependency;
 			target = 07821DE1213BA89D00080F73 /* WWDC */;
 			targetProxy = 07821DF7213BA89E00080F73 /* PBXContainerItemProxy */;
+		};
+		07FD594A213C4EB70019B1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FD5937213C4EB40019B1C2 /* WWDC_tvOS */;
+			targetProxy = 07FD5949213C4EB70019B1C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,6 +682,14 @@
 				07821DEF213BA89E00080F73 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07FD593E213C4EB40019B1C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FD593F213C4EB40019B1C2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -616,6 +893,94 @@
 			};
 			name = Release;
 		};
+		07FD594F213C4EB70019B1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7B731471C3A24C55D43E82 /* Pods-WWDC_tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/WWDC_tvOS/Configurations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thanhturin.WWDC-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		07FD5950213C4EB70019B1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7262DA3B97EFA7AC2207D4A4 /* Pods-WWDC_tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/WWDC_tvOS/Configurations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thanhturin.WWDC-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		07FD5951213C4EB70019B1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABAF2E3FC7F4ED0630DF7AF /* Pods-WWDC_tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WWDC_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thanhturin.WWDC-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC_tvOS.app/WWDC_tvOS";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		07FD5952213C4EB70019B1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BF7748467475EE0C48AA8B /* Pods-WWDC_tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WWDC_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thanhturin.WWDC-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC_tvOS.app/WWDC_tvOS";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -642,6 +1007,24 @@
 			buildConfigurations = (
 				07821E03213BA89E00080F73 /* Debug */,
 				07821E04213BA89E00080F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FD5953213C4EB70019B1C2 /* Build configuration list for PBXNativeTarget "WWDC_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FD594F213C4EB70019B1C2 /* Debug */,
+				07FD5950213C4EB70019B1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FD5954213C4EB70019B1C2 /* Build configuration list for PBXNativeTarget "WWDC_tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FD5951213C4EB70019B1C2 /* Debug */,
+				07FD5952213C4EB70019B1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

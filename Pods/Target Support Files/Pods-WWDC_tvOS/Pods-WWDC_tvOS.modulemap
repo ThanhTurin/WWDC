@@ -1,0 +1,6 @@
+framework module Pods_WWDC_tvOS {
+  umbrella header "Pods-WWDC_tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

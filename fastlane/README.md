@@ -15,12 +15,29 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
+### test_all
+```
+fastlane test_all
+```
+Runs unit tests on both iOS and tvOS
+
+----
+
 ## iOS
 ### ios test
 ```
 fastlane ios test
 ```
-Run Unit tests
+Run unit tests
+
+----
+
+## tvos
+### tvos test
+```
+fastlane tvos test
+```
+Run unit tests
 
 ----
 
