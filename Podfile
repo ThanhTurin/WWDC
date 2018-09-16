@@ -1,7 +1,6 @@
 use_frameworks!
 
 def install_shared_pod
-  pod 'Alamofire', '~> 4.7'
   pod 'AlamofireImage', '~> 3.3'
   pod 'SwiftyJSON', '~> 4.1'
 end
