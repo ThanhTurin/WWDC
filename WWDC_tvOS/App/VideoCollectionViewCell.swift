@@ -2,7 +2,7 @@
 //  VideoCollectionViewCell.swift
 //  WWDC_tvOS
 //
-//  Created by Thanh Turin on 9/3/18.
+//  Created by Thanh Turin
 //  Copyright © 2018 Thanh Turin. All rights reserved.
 //
 

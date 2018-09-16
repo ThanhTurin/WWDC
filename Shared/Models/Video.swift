@@ -2,7 +2,7 @@
 //  Video.swift
 //  WWDC
 //
-//  Created by Thanh Turin on 8/25/18.
+//  Created by Thanh Turin
 //  Copyright © 2018 Thanh Turin. All rights reserved.
 //
 
