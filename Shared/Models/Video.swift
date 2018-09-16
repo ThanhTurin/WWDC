@@ -2,7 +2,7 @@
 //  Video.swift
 //  WWDC
 //
-//  Created by Thanh Turin on 8/25/18.
+//  Created by Thanh Turin
 //  Copyright © 2018 Thanh Turin. All rights reserved.
 //
 
@@ -21,7 +21,11 @@ final class Video {
     self.id = json["id"].stringValue
     self.title = json["title"].stringValue
     self.description = json["description"].stringValue
+    #if TARGET_TVOS
     self.mediaURL = json["media"]["hls"].stringValue
+    #else
+    self.mediaURL = json["media"]["hls"].stringValue
+    #endif
     self.contentId = json["staticContentId"].stringValue
     self.eventId = json["eventId"].stringValue
   }

@@ -402,6 +402,7 @@
         "downloadSD": "https://devstreaming-cdn.apple.com/videos/wwdc/2015/714tqy593v/714/714_sd_whats_new_in_core_location.mp4",
         "duration": 2390,
         "hls": "https://devstreaming-cdn.apple.com/videos/wwdc/2015/714tqy593v/714/hls_vod_mvp.m3u8",
+        "tvOShls": "https://devstreaming-cdn.apple.com/videos/wwdc/2015/714tqy593v/714/atv_vod_mvp.m3u8",
         "slides": "https://devstreaming-cdn.apple.com/videos/wwdc/2015/714tqy593v/714/714_whats_new_in_core_location.pdf",
         "subtitles": "https://devstreaming-cdn.apple.com/videos/wwdc/2015/714tqy593v/714/subtitles/eng/714_sd_whats_new_in_core_location.vtt"
       },
