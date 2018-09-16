@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Alamofire
 import SwiftyJSON
 
 struct VideoAPIRequestPayload {
@@ -21,35 +20,32 @@ struct VideoAPIRequestPayload {
 
 enum VideoAPIResponsePayload {
   case success(hasMore: Bool, videos: [Video])
-  case failure
+  case failure(error: Error)
 }
 
 class VideoAPI {
 
   static let shared = VideoAPI()
 
-  func getVideo(with payload: VideoAPIRequestPayload, completions: ((VideoAPIResponsePayload) -> Void)?) {
-    let parameters = payload.getParameters()
-
-    Alamofire.request("https://api2018.wwdc.io/videos", method: .get, parameters: parameters)
-      .responseJSON { (response) in
-        guard let resultValue = response.result.value as? [String: Any] else {
-          completions?(.failure)
-          return
+  func dataFromJSONFile(_ filename: String) -> JSON {
+    if let path = Bundle.main.path(forResource: filename, ofType: "json") {
+      if let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped) {
+        if let jsonObj = try? JSON(data: data) {
+          return jsonObj
         }
-
-        let hasMore = (resultValue["hasMore"] as? Bool) ?? false
-
-        var videos = [Video]()
-        if let listVideoRawData = resultValue["videos"] as? [Any] {
-          for videoRawData in listVideoRawData {
-            let videoJSON = JSON(videoRawData)
-            videos.append(Video(videoJSON))
-          }
-        }
-
-        completions?(VideoAPIResponsePayload.success(hasMore: hasMore, videos: videos))
+      }
     }
+
+    return JSON()
+  }
+
+  func getVideo(with payload: VideoAPIRequestPayload, completions: ((VideoAPIResponsePayload) -> Void)?) {
+    let path = "videos_page_\(payload.page)"
+    let json = dataFromJSONFile(path)
+    let hasMore = json["hasMore"].boolValue
+    let videos = json["videos"].arrayValue.map{Video($0)}
+
+    completions?(VideoAPIResponsePayload.success(hasMore: hasMore, videos: videos))
   }
 
 }

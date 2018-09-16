@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074B52822158075E00E0493A /* videos_page_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B527E2158075E00E0493A /* videos_page_1.json */; };
+		074B52832158075E00E0493A /* videos_page_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B527F2158075E00E0493A /* videos_page_4.json */; };
+		074B52842158075E00E0493A /* videos_page_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B52802158075E00E0493A /* videos_page_3.json */; };
+		074B52852158075E00E0493A /* videos_page_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B52812158075E00E0493A /* videos_page_2.json */; };
 		07821DE6213BA89D00080F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821DE5213BA89D00080F73 /* AppDelegate.swift */; };
 		07821DEB213BA89D00080F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07821DE9213BA89D00080F73 /* Main.storyboard */; };
 		07821DED213BA89E00080F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07821DEC213BA89E00080F73 /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 		07386802213C49E7004BC94C /* Appfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Appfile; sourceTree = "<group>"; };
 		07386803213C49E7004BC94C /* Fastfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Fastfile; sourceTree = "<group>"; };
 		07386804213C49E7004BC94C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		074B527E2158075E00E0493A /* videos_page_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_1.json; sourceTree = "<group>"; };
+		074B527F2158075E00E0493A /* videos_page_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_4.json; sourceTree = "<group>"; };
+		074B52802158075E00E0493A /* videos_page_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_3.json; sourceTree = "<group>"; };
+		074B52812158075E00E0493A /* videos_page_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_2.json; sourceTree = "<group>"; };
 		07821DE2213BA89D00080F73 /* WWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07821DE5213BA89D00080F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07821DEA213BA89D00080F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +101,17 @@
 			path = fastlane;
 			sourceTree = "<group>";
 		};
+		074B527D2158075E00E0493A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				074B527E2158075E00E0493A /* videos_page_1.json */,
+				074B527F2158075E00E0493A /* videos_page_4.json */,
+				074B52802158075E00E0493A /* videos_page_3.json */,
+				074B52812158075E00E0493A /* videos_page_2.json */,
+			);
+			path = Mock;
+			sourceTree = SOURCE_ROOT;
+		};
 		07821DD9213BA89D00080F73 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +136,7 @@
 		07821DE4213BA89D00080F73 /* WWDC */ = {
 			isa = PBXGroup;
 			children = (
+				074B527D2158075E00E0493A /* Mock */,
 				07821E07213BABA400080F73 /* App */,
 				07821E15213BAC3800080F73 /* Business Logic */,
 				07821E06213BAB8F00080F73 /* Resources */,
@@ -271,7 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074B52822158075E00E0493A /* videos_page_1.json in Resources */,
 				07821DF0213BA89E00080F73 /* LaunchScreen.storyboard in Resources */,
+				074B52842158075E00E0493A /* videos_page_3.json in Resources */,
+				074B52852158075E00E0493A /* videos_page_2.json in Resources */,
+				074B52832158075E00E0493A /* videos_page_4.json in Resources */,
 				07821DED213BA89E00080F73 /* Assets.xcassets in Resources */,
 				07821DEB213BA89D00080F73 /* Main.storyboard in Resources */,
 			);

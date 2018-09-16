@@ -1,9 +1,8 @@
 use_frameworks!
 
 target 'WWDC' do
-  platform :ios, '11.0'
+  platform :ios, '12.0'
 
-  pod 'Alamofire', '~> 4.7'
   pod 'AlamofireImage', '~> 3.3'
   pod 'SwiftyJSON', '~> 4.1'
 
