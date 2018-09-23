@@ -118,9 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				07821E07213BABA400080F73 /* App */,
-				07821E05213BAB8000080F73 /* Configurations */,
-				07821E15213BAC3800080F73 /* Logics */,
-				07821E14213BAC1400080F73 /* Models */,
+				07821E15213BAC3800080F73 /* Business Logic */,
 				07821E06213BAB8F00080F73 /* Resources */,
 			);
 			path = WWDC;
@@ -133,14 +131,6 @@
 				07821DFC213BA89E00080F73 /* Info.plist */,
 			);
 			path = WWDCTests;
-			sourceTree = "<group>";
-		};
-		07821E05213BAB8000080F73 /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				07821DF1213BA89E00080F73 /* Info.plist */,
-			);
-			path = Configurations;
 			sourceTree = "<group>";
 		};
 		07821E06213BAB8F00080F73 /* Resources */ = {
@@ -159,28 +149,22 @@
 				07821E17213BACBE00080F73 /* VideoCollectionViewCell.swift */,
 				07821DE9213BA89D00080F73 /* Main.storyboard */,
 				07821DEE213BA89E00080F73 /* LaunchScreen.storyboard */,
+				07821DF1213BA89E00080F73 /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		07821E14213BAC1400080F73 /* Models */ = {
+		07821E15213BAC3800080F73 /* Business Logic */ = {
 			isa = PBXGroup;
 			children = (
 				07821E0C213BABE700080F73 /* Video.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		07821E15213BAC3800080F73 /* Logics */ = {
-			isa = PBXGroup;
-			children = (
 				07821E09213BABE700080F73 /* VideoAPI.swift */,
 				07821E0B213BABE700080F73 /* VideoCollectionViewModel.swift */,
 				07821E0A213BABE700080F73 /* VideoDataSource.swift */,
 				07821E0D213BABE700080F73 /* UIImageView+URL.swift */,
 				07821E1E213BF1F700080F73 /* Utility.swift */,
 			);
-			path = Logics;
+			path = "Business Logic";
 			sourceTree = "<group>";
 		};
 		CC88290C2510DA5E1E67B4C8 /* Frameworks */ = {
@@ -539,7 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JV363ZPQ5Y;
-				INFOPLIST_FILE = "$(SRCROOT)/WWDC/Configurations/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WWDC/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -559,7 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JV363ZPQ5Y;
-				INFOPLIST_FILE = "$(SRCROOT)/WWDC/Configurations/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WWDC/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
