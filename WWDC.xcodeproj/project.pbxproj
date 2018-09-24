@@ -105,9 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				074B527E2158075E00E0493A /* videos_page_1.json */,
-				074B527F2158075E00E0493A /* videos_page_4.json */,
-				074B52802158075E00E0493A /* videos_page_3.json */,
 				074B52812158075E00E0493A /* videos_page_2.json */,
+				074B52802158075E00E0493A /* videos_page_3.json */,
+				074B527F2158075E00E0493A /* videos_page_4.json */,
 			);
 			path = Mock;
 			sourceTree = SOURCE_ROOT;
@@ -115,6 +115,7 @@
 		07821DD9213BA89D00080F73 = {
 			isa = PBXGroup;
 			children = (
+				074B527D2158075E00E0493A /* Mock */,
 				07821DE4213BA89D00080F73 /* WWDC */,
 				07821DF9213BA89E00080F73 /* WWDCTests */,
 				07821DE3213BA89D00080F73 /* Products */,
@@ -136,7 +137,6 @@
 		07821DE4213BA89D00080F73 /* WWDC */ = {
 			isa = PBXGroup;
 			children = (
-				074B527D2158075E00E0493A /* Mock */,
 				07821E07213BABA400080F73 /* App */,
 				07821E15213BAC3800080F73 /* Business Logic */,
 				07821E06213BAB8F00080F73 /* Resources */,
