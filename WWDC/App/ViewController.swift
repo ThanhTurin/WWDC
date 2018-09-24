@@ -54,7 +54,7 @@ class ViewController: UIViewController {
   }
 
   private func playVideo(_ video: Video) {
-    guard let videoURL = URL(string: video.mediaURL) else {
+    guard let videoURL = URL(string: video.mediaURLString) else {
       return
     }
 

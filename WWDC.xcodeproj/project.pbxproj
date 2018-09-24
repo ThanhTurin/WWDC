@@ -24,6 +24,9 @@
 		07821E18213BACBF00080F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E16213BACBE00080F73 /* ViewController.swift */; };
 		07821E19213BACBF00080F73 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E17213BACBE00080F73 /* VideoCollectionViewCell.swift */; };
 		07821E1F213BF1F700080F73 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E1E213BF1F700080F73 /* Utility.swift */; };
+		07E66CD2215934D6002F9C71 /* VideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E66CD1215934D6002F9C71 /* VideoTests.swift */; };
+		07E66CD42159395E002F9C71 /* VideoCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E66CD32159395E002F9C71 /* VideoCollectionViewModelTests.swift */; };
+		07E66CD6215939A7002F9C71 /* UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E66CD5215939A7002F9C71 /* UtilityTests.swift */; };
 		8BF0E202652F646243281C37 /* Pods_WWDC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7449071968DF4F8917C4C92D /* Pods_WWDC.framework */; };
 		DEC5F8847B0673CC119DFF9B /* Pods_WWDCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D5015C6331BFC64622DA6 /* Pods_WWDCTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +66,9 @@
 		07821E16213BACBE00080F73 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07821E17213BACBE00080F73 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 		07821E1E213BF1F700080F73 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		07E66CD1215934D6002F9C71 /* VideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTests.swift; sourceTree = "<group>"; };
+		07E66CD32159395E002F9C71 /* VideoCollectionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewModelTests.swift; sourceTree = "<group>"; };
+		07E66CD5215939A7002F9C71 /* UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityTests.swift; sourceTree = "<group>"; };
 		2FAA7D95EC5482D60108D84E /* Pods-WWDC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.release.xcconfig"; sourceTree = "<group>"; };
 		326DD5617C92615F762105E4 /* Pods-WWDC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.debug.xcconfig"; sourceTree = "<group>"; };
 		45414FE8CFDCE7637548364F /* Pods-WWDCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCTests/Pods-WWDCTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 			children = (
 				07821DFA213BA89E00080F73 /* WWDCTests.swift */,
 				07821DFC213BA89E00080F73 /* Info.plist */,
+				07E66CD1215934D6002F9C71 /* VideoTests.swift */,
+				07E66CD32159395E002F9C71 /* VideoCollectionViewModelTests.swift */,
+				07E66CD5215939A7002F9C71 /* UtilityTests.swift */,
 			);
 			path = WWDCTests;
 			sourceTree = "<group>";
@@ -392,7 +401,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E66CD6215939A7002F9C71 /* UtilityTests.swift in Sources */,
+				07E66CD42159395E002F9C71 /* VideoCollectionViewModelTests.swift in Sources */,
 				07821DFB213BA89E00080F73 /* WWDCTests.swift in Sources */,
+				07E66CD2215934D6002F9C71 /* VideoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
