@@ -51,19 +51,16 @@ class ViewController: UIViewController {
   private func setupView() {
     view.addSubview(collectionView)
 
-    let views: [String: UIView] = [
-      "collectionView": collectionView,
-      ]
-
-    var constraints = [NSLayoutConstraint]()
-    constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[collectionView]|", options: [], metrics: nil, views: views)
-    constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[collectionView]|", options: [], metrics: nil, views: views)
-
-    NSLayoutConstraint.activate(constraints)
+    NSLayoutConstraint.activate([
+      collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+      collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+      collectionView.topAnchor.constraint(equalTo: view.topAnchor),
+      collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+    ])
   }
 
   private func playVideo(_ video: Video) {
-    guard let videoURL = URL(string: video.mediaURL) else {
+    guard let videoURL = URL(string: video.mediaURLString) else {
       return
     }
 
