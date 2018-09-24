@@ -7,15 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074B52822158075E00E0493A /* videos_page_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B527E2158075E00E0493A /* videos_page_1.json */; };
-		074B52832158075E00E0493A /* videos_page_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B527F2158075E00E0493A /* videos_page_4.json */; };
-		074B52842158075E00E0493A /* videos_page_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B52802158075E00E0493A /* videos_page_3.json */; };
-		074B52852158075E00E0493A /* videos_page_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 074B52812158075E00E0493A /* videos_page_2.json */; };
 		07821DE6213BA89D00080F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821DE5213BA89D00080F73 /* AppDelegate.swift */; };
 		07821DEB213BA89D00080F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07821DE9213BA89D00080F73 /* Main.storyboard */; };
 		07821DED213BA89E00080F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07821DEC213BA89E00080F73 /* Assets.xcassets */; };
 		07821DF0213BA89E00080F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07821DEE213BA89E00080F73 /* LaunchScreen.storyboard */; };
-		07821DFB213BA89E00080F73 /* WWDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821DFA213BA89E00080F73 /* WWDCTests.swift */; };
 		07821E0E213BABE700080F73 /* VideoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E09213BABE700080F73 /* VideoAPI.swift */; };
 		07821E0F213BABE700080F73 /* VideoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E0A213BABE700080F73 /* VideoDataSource.swift */; };
 		07821E10213BABE700080F73 /* VideoCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07821E0B213BABE700080F73 /* VideoCollectionViewModel.swift */; };
@@ -27,6 +22,10 @@
 		07E66CD2215934D6002F9C71 /* VideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E66CD1215934D6002F9C71 /* VideoTests.swift */; };
 		07E66CD42159395E002F9C71 /* VideoCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E66CD32159395E002F9C71 /* VideoCollectionViewModelTests.swift */; };
 		07E66CD6215939A7002F9C71 /* UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E66CD5215939A7002F9C71 /* UtilityTests.swift */; };
+		07E66D0821593FEE002F9C71 /* videos_page_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 07E66D0421593FEE002F9C71 /* videos_page_1.json */; };
+		07E66D0921593FEE002F9C71 /* videos_page_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 07E66D0521593FEE002F9C71 /* videos_page_4.json */; };
+		07E66D0A21593FEE002F9C71 /* videos_page_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 07E66D0621593FEE002F9C71 /* videos_page_3.json */; };
+		07E66D0B21593FEE002F9C71 /* videos_page_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 07E66D0721593FEE002F9C71 /* videos_page_2.json */; };
 		8BF0E202652F646243281C37 /* Pods_WWDC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7449071968DF4F8917C4C92D /* Pods_WWDC.framework */; };
 		DEC5F8847B0673CC119DFF9B /* Pods_WWDCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D5015C6331BFC64622DA6 /* Pods_WWDCTests.framework */; };
 /* End PBXBuildFile section */
@@ -45,10 +44,6 @@
 		07386802213C49E7004BC94C /* Appfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Appfile; sourceTree = "<group>"; };
 		07386803213C49E7004BC94C /* Fastfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Fastfile; sourceTree = "<group>"; };
 		07386804213C49E7004BC94C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		074B527E2158075E00E0493A /* videos_page_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_1.json; sourceTree = "<group>"; };
-		074B527F2158075E00E0493A /* videos_page_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_4.json; sourceTree = "<group>"; };
-		074B52802158075E00E0493A /* videos_page_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_3.json; sourceTree = "<group>"; };
-		074B52812158075E00E0493A /* videos_page_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_2.json; sourceTree = "<group>"; };
 		07821DE2213BA89D00080F73 /* WWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07821DE5213BA89D00080F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07821DEA213BA89D00080F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +51,6 @@
 		07821DEF213BA89E00080F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07821DF1213BA89E00080F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07821DF6213BA89E00080F73 /* WWDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07821DFA213BA89E00080F73 /* WWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCTests.swift; sourceTree = "<group>"; };
 		07821DFC213BA89E00080F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07821E09213BABE700080F73 /* VideoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoAPI.swift; sourceTree = "<group>"; };
 		07821E0A213BABE700080F73 /* VideoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDataSource.swift; sourceTree = "<group>"; };
@@ -69,6 +63,10 @@
 		07E66CD1215934D6002F9C71 /* VideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTests.swift; sourceTree = "<group>"; };
 		07E66CD32159395E002F9C71 /* VideoCollectionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewModelTests.swift; sourceTree = "<group>"; };
 		07E66CD5215939A7002F9C71 /* UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityTests.swift; sourceTree = "<group>"; };
+		07E66D0421593FEE002F9C71 /* videos_page_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_1.json; sourceTree = "<group>"; };
+		07E66D0521593FEE002F9C71 /* videos_page_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_4.json; sourceTree = "<group>"; };
+		07E66D0621593FEE002F9C71 /* videos_page_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_3.json; sourceTree = "<group>"; };
+		07E66D0721593FEE002F9C71 /* videos_page_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos_page_2.json; sourceTree = "<group>"; };
 		2FAA7D95EC5482D60108D84E /* Pods-WWDC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.release.xcconfig"; sourceTree = "<group>"; };
 		326DD5617C92615F762105E4 /* Pods-WWDC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.debug.xcconfig"; sourceTree = "<group>"; };
 		45414FE8CFDCE7637548364F /* Pods-WWDCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCTests/Pods-WWDCTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,26 +105,15 @@
 			path = fastlane;
 			sourceTree = "<group>";
 		};
-		074B527D2158075E00E0493A /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-				074B527E2158075E00E0493A /* videos_page_1.json */,
-				074B52812158075E00E0493A /* videos_page_2.json */,
-				074B52802158075E00E0493A /* videos_page_3.json */,
-				074B527F2158075E00E0493A /* videos_page_4.json */,
-			);
-			path = Mock;
-			sourceTree = SOURCE_ROOT;
-		};
 		07821DD9213BA89D00080F73 = {
 			isa = PBXGroup;
 			children = (
-				074B527D2158075E00E0493A /* Mock */,
 				07821DE4213BA89D00080F73 /* WWDC */,
 				07821DF9213BA89E00080F73 /* WWDCTests */,
 				07821DE3213BA89D00080F73 /* Products */,
 				DF4A2CDF8964D9D1612F01C1 /* Pods */,
 				CC88290C2510DA5E1E67B4C8 /* Frameworks */,
+				07E66D0321593FEE002F9C71 /* Mock */,
 				07386801213C49E7004BC94C /* fastlane */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +130,14 @@
 		07821DE4213BA89D00080F73 /* WWDC */ = {
 			isa = PBXGroup;
 			children = (
-				07821E07213BABA400080F73 /* App */,
 				07821E15213BAC3800080F73 /* Business Logic */,
-				07821E06213BAB8F00080F73 /* Resources */,
+				07821DE5213BA89D00080F73 /* AppDelegate.swift */,
+				07821E16213BACBE00080F73 /* ViewController.swift */,
+				07821E17213BACBE00080F73 /* VideoCollectionViewCell.swift */,
+				07821DE9213BA89D00080F73 /* Main.storyboard */,
+				07821DEE213BA89E00080F73 /* LaunchScreen.storyboard */,
+				07821DF1213BA89E00080F73 /* Info.plist */,
+				07821DEC213BA89E00080F73 /* Assets.xcassets */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -153,34 +145,12 @@
 		07821DF9213BA89E00080F73 /* WWDCTests */ = {
 			isa = PBXGroup;
 			children = (
-				07821DFA213BA89E00080F73 /* WWDCTests.swift */,
 				07821DFC213BA89E00080F73 /* Info.plist */,
 				07E66CD1215934D6002F9C71 /* VideoTests.swift */,
 				07E66CD32159395E002F9C71 /* VideoCollectionViewModelTests.swift */,
 				07E66CD5215939A7002F9C71 /* UtilityTests.swift */,
 			);
 			path = WWDCTests;
-			sourceTree = "<group>";
-		};
-		07821E06213BAB8F00080F73 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				07821DEC213BA89E00080F73 /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		07821E07213BABA400080F73 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				07821DE5213BA89D00080F73 /* AppDelegate.swift */,
-				07821E16213BACBE00080F73 /* ViewController.swift */,
-				07821E17213BACBE00080F73 /* VideoCollectionViewCell.swift */,
-				07821DE9213BA89D00080F73 /* Main.storyboard */,
-				07821DEE213BA89E00080F73 /* LaunchScreen.storyboard */,
-				07821DF1213BA89E00080F73 /* Info.plist */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		07821E15213BAC3800080F73 /* Business Logic */ = {
@@ -194,6 +164,17 @@
 				07821E1E213BF1F700080F73 /* Utility.swift */,
 			);
 			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		07E66D0321593FEE002F9C71 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				07E66D0421593FEE002F9C71 /* videos_page_1.json */,
+				07E66D0521593FEE002F9C71 /* videos_page_4.json */,
+				07E66D0621593FEE002F9C71 /* videos_page_3.json */,
+				07E66D0721593FEE002F9C71 /* videos_page_2.json */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		CC88290C2510DA5E1E67B4C8 /* Frameworks */ = {
@@ -300,11 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074B52822158075E00E0493A /* videos_page_1.json in Resources */,
+				07E66D0821593FEE002F9C71 /* videos_page_1.json in Resources */,
+				07E66D0B21593FEE002F9C71 /* videos_page_2.json in Resources */,
+				07E66D0A21593FEE002F9C71 /* videos_page_3.json in Resources */,
 				07821DF0213BA89E00080F73 /* LaunchScreen.storyboard in Resources */,
-				074B52842158075E00E0493A /* videos_page_3.json in Resources */,
-				074B52852158075E00E0493A /* videos_page_2.json in Resources */,
-				074B52832158075E00E0493A /* videos_page_4.json in Resources */,
+				07E66D0921593FEE002F9C71 /* videos_page_4.json in Resources */,
 				07821DED213BA89E00080F73 /* Assets.xcassets in Resources */,
 				07821DEB213BA89D00080F73 /* Main.storyboard in Resources */,
 			);
@@ -403,7 +384,6 @@
 			files = (
 				07E66CD6215939A7002F9C71 /* UtilityTests.swift in Sources */,
 				07E66CD42159395E002F9C71 /* VideoCollectionViewModelTests.swift in Sources */,
-				07821DFB213BA89E00080F73 /* WWDCTests.swift in Sources */,
 				07E66CD2215934D6002F9C71 /* VideoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,7 +539,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JV363ZPQ5Y;
-				INFOPLIST_FILE = "$(SRCROOT)/WWDC/App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WWDC/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -579,7 +559,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JV363ZPQ5Y;
-				INFOPLIST_FILE = "$(SRCROOT)/WWDC/App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WWDC/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
