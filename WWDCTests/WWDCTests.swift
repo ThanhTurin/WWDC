@@ -2,7 +2,6 @@
 //  WWDCTests.swift
 //  WWDCTests
 //
-//  Created by Thanh Turin on 9/2/18.
 //  Copyright © 2018 Thanh Turin. All rights reserved.
 //
 
