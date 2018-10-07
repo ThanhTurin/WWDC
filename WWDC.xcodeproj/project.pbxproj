@@ -170,9 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				07E66D0421593FEE002F9C71 /* videos_page_1.json */,
-				07E66D0521593FEE002F9C71 /* videos_page_4.json */,
-				07E66D0621593FEE002F9C71 /* videos_page_3.json */,
 				07E66D0721593FEE002F9C71 /* videos_page_2.json */,
+				07E66D0621593FEE002F9C71 /* videos_page_3.json */,
+				07E66D0521593FEE002F9C71 /* videos_page_4.json */,
 			);
 			path = Mock;
 			sourceTree = "<group>";

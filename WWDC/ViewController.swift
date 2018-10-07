@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    setupView()
+    setupViews()
     setupDataSource()
   }
 
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     dataSource.fetchData()
   }
 
-  private func setupView() {
+  private func setupViews() {
     view.addSubview(collectionView)
 
     NSLayoutConstraint.activate([
@@ -69,8 +69,11 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: VideoDataSourceDelegate {
-  func videoDataSource(_ dataSource: VideoDataSource, didSelect video: Video) {
-    playVideo(video)
+
+  func videoDataSource(_ dataSource: VideoDataSource, didRetrivedData videos: [Video]) {
+    DispatchQueue.main.async {
+      self.collectionView.reloadData()
+    }
   }
 
   func videoDataSource(_ dataSource: VideoDataSource, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -80,8 +83,8 @@ extension ViewController: VideoDataSourceDelegate {
     return CGSize(width: width, height: height)
   }
 
-  func videoDataSource(_ dataSource: VideoDataSource, didRetrivedData videos: [Video]) {
-    collectionView.reloadData()
+  func videoDataSource(_ dataSource: VideoDataSource, didSelect video: Video) {
+    playVideo(video)
   }
 
 }
