@@ -16,10 +16,10 @@ class VideoCollectionViewCell: UICollectionViewCell {
   var viewModel: VideoCollectionViewModel? {
     didSet {
       if let viewModel = viewModel {
-        isHidden = false
         titleLabel.text = viewModel.title
         subtitleLabel.text = viewModel.subtitle
         imageView.setImage(with: viewModel.imageURL)
+        isHidden = false
       }
       else {
         isHidden = true

@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     collectionView.translatesAutoresizingMaskIntoConstraints = false
     collectionView.backgroundColor = UIColor.white
     collectionView.alwaysBounceVertical = true
+    collectionView.remembersLastFocusedIndexPath = true
 
     collectionView.dataSource = dataSource
     collectionView.delegate = dataSource
