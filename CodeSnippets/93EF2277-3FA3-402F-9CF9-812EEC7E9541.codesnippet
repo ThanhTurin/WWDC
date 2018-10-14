@@ -42,7 +42,7 @@ end</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Define fastlane supports for both iOS and tvOS</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Fastlane</string>
+	<string>Fastlane - Shared</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

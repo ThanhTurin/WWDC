@@ -7,18 +7,24 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>def install_shared_pod
-  pod 'AlamofireImage', '~&gt; 3.4'
-  pod 'SwiftyJSON', '~&gt; 4.1'
+	<string>platform :tvos do
+  scheme = 'WWDC_tvOS'
+
+  desc 'Run Unit tests'
+  lane :test do
+    scan(scheme: scheme)
+    clean_build_artifacts
+  end
+
 end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E44094C1-CA5A-4935-909B-C50A1C95A661</string>
+	<string>CEA4F5D7-984B-4F5B-80D6-78884553BA13</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Ruby</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Define shared pod between iOS and tvOS</string>
+	<string>Support tvOS on fastlane</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Podfile - Shared</string>
+	<string>Fastlane - tvOS</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

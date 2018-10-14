@@ -24,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Logic code on DataSource to load next page when UICollectionView is scrolled near the end.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Load Next Page</string>
+	<string>VideoDataSource - Pagination</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
